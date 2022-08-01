@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 //import reportWebVitals from './reportWebVitals';
-const url = 'http://localhost:8000';
+//const url = 'http://localhost:8000';
+const url = 'http://localhost:5000'; //port of express app
 export default url;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

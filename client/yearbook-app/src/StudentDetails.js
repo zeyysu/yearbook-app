@@ -36,7 +36,7 @@ const StudentDetails = () => {
                 <h2>Add entry</h2>   
               </Link>
         </div>)}
-        { st &&  <MemList memids={st.mems} stid={st.id} /> }
+        { st &&  <MemList mems={st.entries} /> }
     </div>
     
   );

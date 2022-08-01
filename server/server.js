@@ -4,8 +4,7 @@ const app=express();
 const classRoutes = require('./routes/classRoutes');
 const studentRoutes = require('./routes/studentRoutes');
 const memRoutes = require('./routes/memRoutes');
-// static assets
-//app.use(express.static('./methods-public'))
+
 // parse form data
 app.use(bodyParser.json());
 //app.use(express.urlencoded({ extended: false }))

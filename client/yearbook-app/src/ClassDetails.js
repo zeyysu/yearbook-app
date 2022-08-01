@@ -9,15 +9,8 @@ const ClassDetails = () => {
   const { id } = useParams();
   const { data: cl, error, isPending } = useFetch(url + '/classes/' + id);
 
-  //const history = useHistory();
 
- /* const handleClick = () => {
-    fetch('http://localhost:8000/blogs/' + blog.id, {
-      method: 'DELETE'
-    }).then(() => {
-      history.push('/');
-    }) 
-  }*/
+ 
   return (
     <div className="class-details">
       { isPending && <div>Loading...</div> }
@@ -34,7 +27,7 @@ const ClassDetails = () => {
               </Link>
           </div>
             }
-        { cl &&  <StudentList studentids={cl.studentids} /> }
+        { cl &&  <StudentList students={cl.students} /> }
     </div>
   );
 }

@@ -1,10 +1,8 @@
 
 import url from "./index.js";
-import useFetch from "./useFetch";
 import { useNavigate } from "react-router-dom";
-const MemList = ({ memids, stid }) => {
+const MemList = ({ mems }) => {
     const navigate = useNavigate();
-    const { data: mems, error, isPending } = useFetch(url + '/mems');
     const handleDelete = (memid) => {
         
         fetch( url + '/mems/' + memid, {
@@ -17,10 +15,8 @@ const MemList = ({ memids, stid }) => {
       const handleEdit =(memid) => navigate(`/editmem/${memid}`);
     return (
         <div className="mem-list">
-         { isPending && <div>Loading...</div> }
-        { error && <div>{ error }</div> }
             
-          { mems && mems.filter(mem => (memids.includes(mem.id))).map(mem => (
+          { mems && mems.map(mem => (
             <div className="mem-preview" key={mem.id} >
                 <p >{ mem.body } </p>
                 <h1> from { mem.author }</h1>
