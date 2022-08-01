@@ -1,0 +1,64 @@
+{
+    "1": {
+    "id": 1,
+    "name": "Su Yalcin",
+    "mems": [
+      1,
+      2,
+      3
+    ],
+    "quote": "??????",
+    "classid": 1
+  },
+  "2":{
+    "id": 2,
+    "name": "Emily Agreste",
+    "mems": [
+      7,
+      8,
+      18,
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "quote": "I am dead",
+    "classid": 1
+  },
+  "3":{
+    "id": 3,
+    "name": "Marinette Dupain-Cheng",
+    "mems": [
+      9,
+      10,
+      19,
+      20
+    ],
+    "quote": "I am reallyyyy clumsy",
+    "classid": 1
+  },
+  "4":{
+    "name": "Adrien Agreste",
+    "quote": "whho is ladybug",
+    "mems": [
+      11,
+      12,
+      13,
+      16,
+      17,
+      22
+    ],
+    "id": 4
+  },
+  "5":{
+    "name": "Nino",
+    "quote": "come on dudeeeee",
+    "classid": "1",
+    "mems": [
+      26,
+      27
+    ],
+    "id": 5
+}
+}

@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.home h1{
+  font-size: 50px;
+}
+
+
+.class-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+
+.class-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.class-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.class-preview h1 {
+  font-size: 15px;
+  color: #f1356d;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+.class-preview a{
+  text-decoration: none;
+}
+
+.class-details h2{
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.class-details p{
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.student-preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  background-color: #f1356d;
+}
+
+.student-preview:hover {
+  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.473);
+}
+
+.student-preview a{
+  text-decoration: none;
+} 
+
+.student-preview h1{
+  font-size: 15px;
+  color: #fafafa;
+  margin-bottom: 8px;
+}
+
+.student-preview h2 {
+  font-size: 20px;
+  color: #fafafa;
+  margin-bottom: 8px;
+}
+
+
+.student-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px 10px;
+}
+
+.mem-preview{
+  height: 30rem;
+  width: 15rem;
+  padding: 10px 16px 10px 16px;
+  font-size: 12px;
+  font-family: serif;
+  background-color: palegoldenrod;
+  border: gray;
+  border-width: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.mem-preview:hover {
+  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.473);
+}
+
+
+.mem-preview >h1{
+  font-size: 10px;
+  color: black;
+}
+
+.mem-preview >p{
+  height: 25rem;
+  font-size: 12px;
+  font-family: serif;
+  color: black;
+  margin-top: 1rem;
+  overflow: scroll;
+}
+
+.mem-preview button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.mem-preview a{
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
+  height: inherit;
+}
+
+
+.mem-list {
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px 10px;
+}
+
+.student-details h2{
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.student-details >p{
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  
+}
+
+.Navbutton{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+  gap: 10px 10px;
+  
+  
+}
+
+.Navbutton button{
+  background: none;
+  border: none;
+  float: left;
+}
+
+.create-mem {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create-mem label {
+  text-align: left;
+  display: block;
+}
+.create-mem h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create-mem input, .create-mem select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create-mem button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.create-mem textarea{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  height: 600px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.mem-crbutton{
+  padding: 10px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f1356d;
+  width: 10%;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  
+}
+
+.mem-crbutton:hover {
+  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.473);
+}
+
+.mem-crbutton a{
+  text-decoration: none;
+} 
+
+.mem-crbutton h1{
+  font-size: 15px;
+  color: #fafafa;
+  margin-bottom: 8px;
+}
+
+.mem-crbutton h2 {
+  font-size: 20px;
+  color: #fafafa;
+  margin-bottom: 8px;
+}
