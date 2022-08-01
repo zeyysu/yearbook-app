@@ -1,92 +1,92 @@
-{
-    "1":{
-    "id": 1,
-    "stid": 1,
+[
+    {
+    "id": "1",
+    "stid": "1",
     "body": "Who are you dare des ka",
     "author": "Anon"
   },
-  "2":{
-    "id": 2,
-    "stid": 1,
+  {
+    "id": "2",
+    "stid": "1",
     "body": "Are you even in this school\nNo I am not\nokay then bye",
     "author": "Anon"
   },
-  "3":{
-    "id": 3,
-    "stid": 1,
+  {
+    "id": "3",
+    "stid": "1",
     "body": "I dont know you\nNeither do I",
     "author": "Anon"
   },
-  "7":{
-    "id": 7,
-    "stid": 2,
+  {
+    "id": "7",
+    "stid": "2",
     "body": "I am sad you are dead",
     "author": "Su"
   },
-  "8":{
-    "id": 8,
-    "stid": 2,
+  {
+    "id": "8",
+    "stid": "2",
     "body": "Why did you have to go mother",
     "author": "Chat noir"
   },
-  "18":{
+  {
     "body": "hahhahahhahaaha",
     "author": "ahahaha",
     "stid": "2",
-    "id": 18
+    "id": "18"
   },
-  "19":{
+  {
     "body": "gdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdb\ngdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdb\ngdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdb\ngdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdb\ngdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbv\ngdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbv\nv\ngdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdb\nvgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdb\nv\nv\nv\ngdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdbvgdjgsjhdghsgjdgahjdghjasgdhjgasdgjhgadhgashjdghjagfhgrfghsdmbvhsbvuchsdbcbsfhcbewhfcbfhgbksjdhfnlkdncjdbncmndsbbsdfjeljfhrwjbddbcbhsgahsfndfjbsdmbfndsbnmbsdmnbfmnsbdfnbsdnmbfnsdb",
     "author": "me",
     "stid": "4",
-    "id": 19
+    "id": "19"
   },
-  "20":{
+  {
     "body": "dbemdbnmbdnwmndbmnwqbdnmbqndq\n\ndbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\n\nvdbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndq\n\nvvdbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\n\nvdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndqvdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndq\nv\ndbemdbnmbdnwmndbmnwqbdnmbqndq\nv\ndbemdbnmbdnwmndbmnwqbdnmbqndq\ndbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqv\ndbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqv\nvv\ndbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqdbemdbnmbdnwmndbmnwqbdnmbqndqv\nvv",
     "author": "su",
     "stid": "3",
-    "id": 20
+    "id": "20"
   },
-  "21":{
+  {
     "body": "hot tamale hot hot tamale",
     "author": "hothot",
     "stid": "2",
-    "id": 21
+    "id": "21"
   },
-  "22":{
+  {
     "body": "do you like tamale cold tamale",
     "author": "tam",
     "stid": "2",
-    "id": 22
+    "id": "22"
   },
-  "23":{
+  {
     "body": "nooo i like hot tamale",
     "author": "tamale",
     "stid": "2",
-    "id": 23
+    "id": "23"
   },
-  "24":{
+  {
     "body": "hot tamale hot hot tamale hot tamale",
     "author": "hot",
     "stid": "2",
-    "id": 24
+    "id": "24"
   },
-  "25":{
+  {
     "body": "ccccooooooollldddd tamaleeeeeeee\nNOOOOOOOO HOT TAMALE",
     "author": "coldd",
     "stid": "2",
-    "id": 25
+    "id": "25"
   },
-  "26":{
+  {
     "body": "You are my best and first friend",
     "author": "Adrien",
     "stid": "5",
-    "id": 26
+    "id": "26"
   },
-  "27":{
+  {
     "body": "Eyvallah bro",
     "author": "ALya",
     "stid": "5",
-    "id": 27
+    "id": "27"
   }
-}
+]

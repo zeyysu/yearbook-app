@@ -1,13 +1,13 @@
-const {classes, students, mems} = require('../data/data.js')
-const fs = require('fs');
-const classdatapath = '../data/classes.json';
-const studentdatapath = '../data/classes.json';
-const memdatapath = '../data/mems.json';
 
+const fs = require('fs');
+const path = require("path");
+
+const classdatapath = path.join(__dirname, '../../data/classes.json');
+const studentdatapath = path.join(__dirname,'../../data/students.json');
 
 const class_index = (req,res) => {
     fs.readFile(classdatapath, 'utf8', (err,data) =>{
-        if(err) throw err;
+        if(err) {console.log(err); return res.status(400).send({success:false});}
         res.send(JSON.parse(data));
     });
     //return res.json(classes)
@@ -15,15 +15,20 @@ const class_index = (req,res) => {
 
 const class_details = (req,res) => {
     const classid = req.params.id;
-
     //const clas = classes.find( (clas) => {clas.id === Number(classid)} )
     fs.readFile(classdatapath, 'utf8', (err,data) => {
-        if(err) throw err;
-        const clas = data[classid] ;
+        if(err) {console.log(err); return res.status(400).send({success:false});}
+        //data = JSON.parse(data);
+        data=JSON.parse(data);
+        const clas = data.find(el => el.id === classid);
         if(!clas){
             return res.status(404).send('Class could not be found')
         }
-        res.send(JSON.parse(clas));
+        fs.readFile(studentdatapath, 'utf8', (err,data) =>{
+            if(err)  {console.log(err); return res.status(400).send({success:false});}
+            const students = JSON.parse(data).filter(el => el.classid==classid);
+            res.send({students: students, ...clas});
+        });
     })
     //return res.json(clas)
 }
@@ -56,18 +61,19 @@ const class_delete = (req,res) => {
 
     const newClasses = classes.filter((cl)=> cl.id !== Number(id));
     return res.status(200).json({success:true, data: newClasses})*/
-    fs.readFile(classdatapath, 'utf8', (err,classdata) => {
+   /* fs.readFile(classdatapath, 'utf8', (err,classdata) => {
         if(err) throw err;
         clas = classdata[id];
-        fs.readFile(classdatapath, 'utf8', (err, studentdata) => {
+        fs.readFile(studentdatapath, 'utf8', (err, studentdata) => {
             if(err) throw err;
             clas.studentids.array.forEach(st => {
                 student = studentdata[st];
+                fs.readFile()
                 
                 
             });
         })
-    })
+    })*/
 }
 
 module.exports = {
