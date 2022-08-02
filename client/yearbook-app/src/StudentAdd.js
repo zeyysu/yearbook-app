@@ -6,13 +6,11 @@ const StudentAdd = () => {
     const {id} = useParams();
   const [name, setName] = useState('');
   const [quote, setQuote] = useState('');
-  const { data: clas } = useFetch(url + '/classes/' + id);
-    const navigate= useNavigate();
+  const navigate= useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     const student = { name, quote };
     student.classid=id;
-    student.mems=[];
 
     fetch(url + '/students', {
       method: 'POST',
@@ -20,17 +18,9 @@ const StudentAdd = () => {
       body: JSON.stringify(student)
     }).then(response => response.json())
     .then((data) => {
-      clas.studentids.push(data.id)
-      const req = {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(clas)
-        };
-        fetch(url + '/classes/' + id, req).then(()=>
-           navigate(-1)
-        ).catch(err => console.log(err));
-     
-    });
+      console.log(data);
+      navigate(-1);
+        }).catch(err=> console.log(err));
   }
 
   return (

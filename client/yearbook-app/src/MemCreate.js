@@ -1,12 +1,10 @@
 import { useState } from "react";
 import url from "./index.js";
 import { useNavigate, useParams} from "react-router-dom";
-import useFetch from "./useFetch";
 const MemCreate = () => {
     const {id} = useParams();
   const [body, setBody] = useState('');
   const [author, setAuthor] = useState('');
-  const { data: student } = useFetch(url + '/students/' + id);
     const navigate= useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -19,17 +17,10 @@ const MemCreate = () => {
       body: JSON.stringify(mem)
     }).then(response => response.json())
     .then((data) => {
-      student.mems.push(data.id)
-      const req = {
-        method: 'PUT',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(student)
-        };
-        fetch(url + '/students/' + id, req).then(()=>
-           navigate(-1)
-        ).catch(err => console.log(err));
+      console.log(data);
+     navigate(-1);
      
-    });
+    }).catch(err => console.log(err));
   }
 
   return (

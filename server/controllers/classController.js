@@ -40,15 +40,15 @@ const class_create_post = (req,res) => {
     }
 
     fs.readFile(classdatapath, 'utf8', (err,data) =>{
-        if(err) throw err;
-        const newUserId = Date.now.toString;
-        data[newUserId] = clas;
-
-        fs.writeFile(JSON.stringify(data,null,2), () => {
-            res.status(200).send(data[newUserId] );
+        if(err)  {console.log(err); return res.status(400).send({success:false});}
+        const newId =Date.now().toString();
+        clas.id=newId;
+        data=JSON.parse(data);
+        data.push(clas);
+        fs.writeFile(classdatapath, JSON.stringify(data,null,2), () => {
+            res.status(200).send({success:true}  );
         })
     })
-    //res.status(201).json({ success: true, data: clas}) 
 }
 
 const class_delete = (req,res) => {
