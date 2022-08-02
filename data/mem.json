@@ -1,23 +1,5 @@
 [
   {
-    "id": "1",
-    "stid": "1",
-    "body": "Who are you dare des ka",
-    "author": "Anon"
-  },
-  {
-    "id": "2",
-    "stid": "1",
-    "body": "Are you even in this school\nNo I am not\nokay then bye",
-    "author": "Anon"
-  },
-  {
-    "id": "3",
-    "stid": "1",
-    "body": "I dont know you\nNeither do I",
-    "author": "Anon"
-  },
-  {
     "id": "7",
     "stid": "2",
     "body": "I am sad you are dead",
@@ -66,12 +48,6 @@
     "id": "23"
   },
   {
-    "body": "hot tamale hot hot tamale hot tamale",
-    "author": "hot",
-    "stid": "2",
-    "id": "24"
-  },
-  {
     "body": "ccccooooooollldddd tamaleeeeeeee\nNOOOOOOOO HOT TAMALE",
     "author": "coldd",
     "stid": "2",
@@ -90,18 +66,6 @@
     "id": "27"
   },
   {
-    "body": "entryyy",
-    "author": "su",
-    "stid": "2",
-    "id": "1659426500340"
-  },
-  {
-    "body": "new entry ho",
-    "author": "developer",
-    "stid": "2",
-    "id": "1659426544533"
-  },
-  {
     "body": "Dont know you weell but you seem like a great guy",
     "author": "Old studeny",
     "stid": "1659426824637",
@@ -112,5 +76,23 @@
     "author": "dude",
     "stid": "5",
     "id": "1659427027889"
+  },
+  {
+    "body": "Gıcık olsan da seviyoruz",
+    "author": "zeysu",
+    "stid": "1659428187765",
+    "id": "1659428200404"
+  },
+  {
+    "body": "Welcome to france",
+    "author": "chloe",
+    "stid": "1",
+    "id": "1659428773094"
+  },
+  {
+    "body": "I am so sick of myself",
+    "author": "rather be rather be",
+    "stid": "1",
+    "id": "1659428831172"
   }
 ]

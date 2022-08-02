@@ -10,15 +10,14 @@ const class_index = (req,res) => {
         if(err) {console.log(err); return res.status(400).send({success:false});}
         res.send(JSON.parse(data));
     });
-    //return res.json(classes)
+    
 }
 
 const class_details = (req,res) => {
     const classid = req.params.id;
-    //const clas = classes.find( (clas) => {clas.id === Number(classid)} )
+
     fs.readFile(classdatapath, 'utf8', (err,data) => {
         if(err) {console.log(err); return res.status(400).send({success:false});}
-        //data = JSON.parse(data);
         data=JSON.parse(data);
         const clas = data.find(el => el.id === classid);
         if(!clas){
@@ -30,7 +29,6 @@ const class_details = (req,res) => {
             res.send({students: students, ...clas});
         });
     })
-    //return res.json(clas)
 }
 
 const class_create_post = (req,res) => {
@@ -53,27 +51,18 @@ const class_create_post = (req,res) => {
 
 const class_delete = (req,res) => {
     const id = req.params.id;
-    //const clas = classes.find((cl)=> cl.id===Number(id));
-    /*if(!clas){
-        return res.status(404)
-        .json( {success: false, msg: 'class does not exist'})
-    }
-
-    const newClasses = classes.filter((cl)=> cl.id !== Number(id));
-    return res.status(200).json({success:true, data: newClasses})*/
-   /* fs.readFile(classdatapath, 'utf8', (err,classdata) => {
-        if(err) throw err;
-        clas = classdata[id];
-        fs.readFile(studentdatapath, 'utf8', (err, studentdata) => {
-            if(err) throw err;
-            clas.studentids.array.forEach(st => {
-                student = studentdata[st];
-                fs.readFile()
-                
-                
-            });
-        })
-    })*/
+    fs.readFile(classdatapath, 'utf8', (err,data) =>{
+        if(err){console.log(err); return res.status(400).send({success:false});}
+        data=JSON.parse(data);
+        const index = data.findIndex((item) => {
+            return item.id === id
+          }); 
+        data.splice(index,1);
+        fs.writeFile(classdatapath, JSON.stringify(data,null,2), () => {
+            res.status(200).send({success:true} );
+        });
+        
+    })
 }
 
 module.exports = {

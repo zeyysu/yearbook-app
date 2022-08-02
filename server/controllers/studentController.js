@@ -8,7 +8,6 @@ const student_index = (req,res) => {
         if(err)  {console.log(err); return res.status(400).send({success:false});}
         res.send(JSON.parse(data));
     });
-    //return res.json(classes)
 }
 
 const student_details = (req,res) => {
@@ -51,15 +50,19 @@ const student_create_post = (req,res) => {
 }
 
 const student_delete = (req,res) => {
-    /*const id = req.params.id;
-    const clas = classes.find((cl)=> cl.id===Number(id));
-    if(!clas){
-        return res.status(404)
-        .json( {success: false, msg: 'class does not exist'})
-    }
-
-    const newClasses = classes.filter((cl)=> cl.id !==Number(id));
-    return res.status(200).json({success:true, data: newClasses})*/
+    const studentid = req.params.id;
+    fs.readFile(studentdatapath, 'utf8', (err,data) =>{
+        if(err){console.log(err); return res.status(400).send({success:false});}
+        data=JSON.parse(data);
+        const index = data.findIndex((item) => {
+            return item.id === studentid
+          }); 
+        data.splice(index,1);
+        fs.writeFile(studentdatapath, JSON.stringify(data,null,2), () => {
+            res.status(200).send({success:true} );
+        });
+        
+    })
 }
 
 module.exports = {

@@ -1,7 +1,6 @@
 import { useState } from "react";
 import url from "./index.js";
 import { useNavigate, useParams} from "react-router-dom";
-import useFetch from "./useFetch";
 const StudentAdd = () => {
     const {id} = useParams();
   const [name, setName] = useState('');

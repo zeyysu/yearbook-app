@@ -41,7 +41,6 @@ const mem_create_post = (req,res) => {
         })
         
     })
-    /*res.status(201).json({ success: true, data: clas}) */
 
 }
 
@@ -50,20 +49,14 @@ const mem_delete = (req,res) => {
     fs.readFile(memdatapath, 'utf8', (err,data) =>{
         if(err){console.log(err); return res.status(400).send({success:false});}
         data=JSON.parse(data);
-        let index =0;
-        data.forEach(element => {
-            console.log(element.id);
-            console.log(memid);
-            if(element.id===memid) 
-            index++;
-        });
-        //const mem =  data.find(el => el.id ===memid);
-       /* const index = data.findIndex(memid);
+        const index = data.findIndex((item) => {
+            return item.id === memid
+          }); 
         data.splice(index,1);
-        fs.writeFile(JSON.stringify(data,null,2), () => {
+        fs.writeFile(memdatapath, JSON.stringify(data,null,2), () => {
             res.status(200).send({success:true} );
-        })*/
-        res.send({});
+        });
+        
     })
 }
 
