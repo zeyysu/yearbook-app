@@ -65,9 +65,26 @@ const class_delete = (req,res) => {
     })
 }
 
+const class_update = (req,res) => {
+    const cl = req.body;
+    fs.readFile(classdatapath, 'utf8', (err,data) =>{
+        if(err){console.log(err); return res.status(400).send({success:false});}
+        data=JSON.parse(data);
+        const index = data.findIndex((item) => {
+            return item.id === cl.id
+          }); 
+        data[index] = cl;
+        fs.writeFile(classdatapath, JSON.stringify(data,null,2), () => {
+            res.status(200).send({success:true} );
+        });
+        
+    })
+}
+
 module.exports = {
     class_index,
     class_details,
     class_create_post,
-    class_delete
+    class_delete,
+    class_update
 }

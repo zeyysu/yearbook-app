@@ -60,9 +60,26 @@ const mem_delete = (req,res) => {
     })
 }
 
+const mem_update = (req,res) => {
+    const mem = req.body;
+    fs.readFile(memdatapath, 'utf8', (err,data) =>{
+        if(err){console.log(err); return res.status(400).send({success:false});}
+        data=JSON.parse(data);
+        const index = data.findIndex((item) => {
+            return item.id === mem.id
+          }); 
+        data[index] = mem;
+        fs.writeFile(memdatapath, JSON.stringify(data,null,2), () => {
+            res.status(200).send({success:true} );
+        });
+        
+    })
+}
+
 module.exports = {
     mem_index,
     mem_details,
     mem_create_post,
-    mem_delete    
+    mem_delete,
+    mem_update    
 }

@@ -5,7 +5,6 @@ import { useEffect } from "react";
 
 const MemEdit= () => {
     const {id} = useParams();
-    console.log(id);
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('');
     const [mem, setMem] = useState({});
@@ -34,7 +33,7 @@ const MemEdit= () => {
       })
     }, [])
 
-    const navigate= useNavigate();
+  const navigate= useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     mem.body=body;

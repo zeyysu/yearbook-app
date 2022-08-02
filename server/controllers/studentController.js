@@ -65,10 +65,27 @@ const student_delete = (req,res) => {
     })
 }
 
+const student_update = (req,res) => {
+    const student = req.body;
+    fs.readFile(studentdatapath, 'utf8', (err,data) =>{
+        if(err){console.log(err); return res.status(400).send({success:false});}
+        data=JSON.parse(data);
+        const index = data.findIndex((item) => {
+            return item.id === student.id
+          }); 
+        data[index] = student;
+        fs.writeFile(studentdatapath, JSON.stringify(data,null,2), () => {
+            res.status(200).send({success:true} );
+        });
+        
+    })
+}
+
+
 module.exports = {
     student_index,
     student_details,
     student_create_post,
     student_delete,
-    
+    student_update  
 }
